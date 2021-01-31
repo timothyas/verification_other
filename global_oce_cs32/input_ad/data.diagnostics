@@ -30,15 +30,20 @@
    filename(3) = 'adj_state_3d',
 #---
   frequency(4) = 2635200.0,
-   fields(1:6,4) = 'ADJtaux ', 'ADJtauy ',
-                   'ADJqnet ', 'ADJqnet ',
-                   'ADJempmr', 'ADJqsw  '
+   fields(1:5,4) = 'ADJtaux ','ADJtauy ',
+                   'ADJqnet ','ADJqsw  ',
+                   'ADJempmr'
    filename(4) = 'adj_forcing',
 #---
   frequency(5) = 2635200.0,
    fields(1:3,5) = 'ADJtke90', 'ADJkapgm',
                    'ADJkapre',
    filename(5) = 'adj_parameters',
+#---
+  frequency(6) = 2635200.0,
+   fields(1,6) = 'ADJetan'
+   filename(6) = 'adj_state_2d',
+#---
  &
 #
 #

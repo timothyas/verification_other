@@ -6,7 +6,7 @@
  useSeaice          = .TRUE.,
  useGGL90           = .TRUE.,
  useSALT_PlUME      = .TRUE.,
- useDiagnostics     = .FALSE.,
+ useDiagnostics     = .TRUE.,
  useECCO            = .TRUE.,
  useCTRL            = .TRUE.,
  useProfiles        = .TRUE.,
